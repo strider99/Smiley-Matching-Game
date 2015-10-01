@@ -19,11 +19,23 @@
             left: 500px;
             border-left: 1px solid black;
         }
+        h1 {
+            display: inline;
+        }
+        #level {
+            position: absolute;
+            left: 470px;
+            font-family: helvetica;
+            font-size: 20px;
+            color: red;
+            font-weight: 900;
+        }
     </style>
 </head>
 
 <body onload="generateFaces()">
     <h1>Matching Game</h1>
+    <span id="level">LEVEL 1</span>
     <p>Click on the extra smiling face on the left</p>
     <div id="leftSide"></div>
     <div id="rightSide"></div>
@@ -33,6 +45,8 @@
             theLeftSide;
         theLeftSide = document.getElementById("leftSide");
         var theRightSide = document.getElementById("rightSide");
+        var level_no = 2;
+        var level_value = document.getElementById("level");
 
         function generateFaces() {
             var num = numberOfFaces;
@@ -68,7 +82,8 @@
             while(theRightSide.firstChild)
                 theRightSide.removeChild(theRightSide.firstChild);
                 numberOfFaces += 5;
-
+                level_value.innerHTML = "LEVEL " + level_no;
+                level_no++;
                 generateFaces();
 
             };
