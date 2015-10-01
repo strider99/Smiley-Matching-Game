@@ -8,13 +8,25 @@
             height: 500px;
         }
         
+        #leftSide {
+            border-top: 3px solid black;
+            border-left: 3px solid black;
+            border-bottom: 3px solid black;
+            background: #F681F4;
+        }
+        
         #rightSide {
             left: 500px;
-            border-left: 1px solid black;
+            /*            border-left: 1px solid black;*/
+            border: 3px soild black !important;
+            background: #F681F4;
         }
+        
         h1 {
             display: inline;
+            font-family: 'Inconsolata',sans-serif;
         }
+        
         #level {
             position: absolute;
             left: 470px;
