@@ -1,37 +1,48 @@
-        img {
-            position: absolute;
-        }
-        
-        div {
-            position: absolute;
-            width: 500px;
-            height: 500px;
-        }
-        
-        #leftSide {
-            border-top: 3px solid black;
-            border-left: 3px solid black;
-            border-bottom: 3px solid black;
-            background: #F681F4;
-        }
-        
-        #rightSide {
-            left: 500px;
-            /*            border-left: 1px solid black;*/
-            border: 3px soild black !important;
-            background: #F681F4;
-        }
-        
-        h1 {
-            display: inline;
-            font-family: 'Inconsolata',sans-serif;
-        }
-        
-        #level {
-            position: absolute;
-            left: 470px;
-            font-family: helvetica;
-            font-size: 20px;
-            color: red;
-            font-weight: 900;
-        }
+h1 {
+    box-shadow: 3px 3px 3px #E3E9DF;
+    padding-bottom: 10px;
+    padding-right: 10px;
+/*    background-color: orangered;*/
+}    
+p {
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+img {
+    position: absolute;
+}
+
+div {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+#leftSide {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    background: #F681F4;
+}
+
+#rightSide {
+    left: 500px;
+    /*            border-left: 1px solid black;*/
+    border: 3px soild black !important;
+    background: #F681F4;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+#level {
+    position: absolute;
+    left: 470px;
+    font-family: helvetica;
+    font-size: 20px;
+    color: red;
+    font-weight: 900;
+}
