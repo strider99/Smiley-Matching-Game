@@ -1,5 +1,6 @@
 h1 {
     box-shadow: 3px 3px 3px #E3E9DF;
+    text-shadow: 3px 3px 20px black;
     padding-bottom: 10px;
     padding-right: 10px;
 /*    background-color: orangered;*/
