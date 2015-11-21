@@ -4,7 +4,7 @@ h1 {
     padding-bottom: 10px;
     padding-right: 10px;
 /*    background-color: orangered;*/
-}    
+}
 p {
     letter-spacing: 1px;
     font-family: sans-serif;
@@ -24,7 +24,14 @@ div {
     border-top: 3px solid black;
     border-left: 3px solid black;
     border-bottom: 3px solid black;
-    background: #F681F4;
+    background: #4c4c4c;
+background: -moz-linear-gradient(left, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2b2b2b 76%, #131313 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, #4c4c4c), color-stop(12%, #595959), color-stop(25%, #666666), color-stop(39%, #474747), color-stop(76%, #2b2b2b), color-stop(100%, #131313));
+background: -webkit-linear-gradient(left, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2b2b2b 76%, #131313 100%);
+background: -o-linear-gradient(left, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2b2b2b 76%, #131313 100%);
+background: -ms-linear-gradient(left, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2b2b2b 76%, #131313 100%);
+background: linear-gradient(to right, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2b2b2b 76%, #131313 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
 }
 
 #rightSide {

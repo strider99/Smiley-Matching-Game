@@ -6,7 +6,7 @@
     <title>Matching Game</title>
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body onload="generateFaces()">
@@ -43,11 +43,11 @@
                 num--;
             }
 //            console.log("the last child is " + theLeftSide.lastChild);
-            
+
             var leftSideImages = theLeftSide.cloneNode(true);
             leftSideImages.removeChild(leftSideImages.lastChild);
             theRightSide.appendChild(leftSideImages);
-            
+
             var theBody = document.getElementsByTagName("body")[0];
         theLeftSide.lastChild.onclick =             //Here is the error
             function nextLevel(event) {
@@ -75,8 +75,8 @@
 
         };
         }
-        
-        
+
+
     </script>
 </body>
 
